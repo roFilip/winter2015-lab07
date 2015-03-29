@@ -85,6 +85,7 @@ class Welcome extends Application {
         {
           $burgerData['top'] = "None";
         }
+
         //Only show cheese if there are cheese
         if($burger->cheeseT != NULL)
         {
@@ -109,7 +110,7 @@ class Welcome extends Application {
         //push to orderArray
         array_push($orderArray, $burgerData);
       }
-      
+
       $this->data['order'] = $orderArray;
       $this->data['oTotal'] = $oTotal;
       $this->data['pagebody'] = 'justone';
