@@ -34,7 +34,6 @@ class Welcome extends Application {
                 if ($str != 'menu.xml') {
                     $filename = array(
                       'file' => $str,
-                    //  'title' =>  substr((string)$str,0,-4). " (".getCustomer($str).")"
                     );
                   array_push($orders, $filename);
               }
